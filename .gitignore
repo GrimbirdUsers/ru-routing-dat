@@ -1,0 +1,3 @@
+*.bak
+data-geosite/*.bak
+data-geoip/*.bak

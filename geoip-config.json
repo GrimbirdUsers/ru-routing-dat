@@ -1,0 +1,14 @@
+{
+  "input": [
+    {"type": "text", "action": "add", "args": {"name": "ru", "uri": "./data-geoip/ru.txt"}},
+    {"type": "text", "action": "add", "args": {"name": "private", "uri": "./data-geoip/private.txt"}},
+    {"type": "text", "action": "add", "args": {"name": "ru-wildberries", "uri": "./data-geoip/ru-wildberries.txt"}},
+    {"type": "text", "action": "add", "args": {"name": "ru-yandex", "uri": "./data-geoip/ru-yandex.txt"}},
+    {"type": "text", "action": "add", "args": {"name": "ru-vk", "uri": "./data-geoip/ru-vk.txt"}},
+    {"type": "text", "action": "add", "args": {"name": "ru-mts", "uri": "./data-geoip/ru-mts.txt"}},
+    {"type": "text", "action": "add", "args": {"name": "ru-banks", "uri": "./data-geoip/ru-banks.txt"}}
+  ],
+  "output": [
+    {"type": "v2rayGeoIPDat", "action": "output", "args": {"outputDir": ".", "outputName": "geoip.dat"}}
+  ]
+}
