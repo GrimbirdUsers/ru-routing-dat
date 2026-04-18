@@ -71,6 +71,22 @@
         "name": "ru-analytics",
         "uri": "./data-geoip/ru-analytics.txt"
       }
+    },
+    {
+      "type": "text",
+      "action": "add",
+      "args": {
+        "name": "ru-payments",
+        "uri": "./data-geoip/ru-payments.txt"
+      }
+    },
+    {
+      "type": "text",
+      "action": "add",
+      "args": {
+        "name": "ru-cdn",
+        "uri": "./data-geoip/ru-cdn.txt"
+      }
     }
   ],
   "output": [

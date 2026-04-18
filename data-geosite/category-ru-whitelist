@@ -18,3 +18,5 @@ include:ru-finance
 include:ru-transport
 include:ru-banks
 include:ru-analytics
+include:ru-payments
+include:ru-cdn

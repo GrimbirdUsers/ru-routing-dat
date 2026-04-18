@@ -744,14 +744,15 @@ yandex.net
 yandex.org	yandex.pl	yandex.st	yandex.sx	yandex.tj	yandex.tm	yandex.tr	yandex.ua	yandex.uzyandexadexchange.netyandexcloud.netyandexcom.netyandexmetrica.comyandexwebcache.org
 yastat.netyastatic.netyoudrive.today
 yuwell.com
-ë.
+Ì0
 CATEGORY-RU-WHITELIST2gis.com2gis.ru
 5ka.ru5post.marketadfox.ruadmetrica.ru
-adygeya.ru	akbars.rualfabank.comalfabank.rualtai.ruamur.ruapp-measurement.comarkhangelsk.ruastrakhan.ruavito.ruavito.stbashkiria.rubelgorod.ru
+adygeya.ru	akbars.rualfabank.comalfabank.rualtai.ruamur.ruapi.cloudpayments.ruapp-measurement.comarkhangelsk.ruastrakhan.ruavito.ruavito.stbashkiria.rubelgorod.ru
 bir.ru	boosty.to
 bryansk.rubspb.ruburyatia.ru
 cbg.ru
-cbr.ru	cdn-vk.ruchel.ruchelyabinsk.ruchita.ruchizhik.clubchukotka.ruchuvashia.ru	clubx5.rucounter.yadro.rucrashlytics.com	crimea.rudagestan.rudialogx5.rudonationalerts.comdzen.rudzeninfra.ru	e5.ru
+cbr.ru	cdn-vk.rucdnvideo.netcdnvideo.ruchel.ruchelyabinsk.ruchita.ruchizhik.clubchukotka.ruchuvashia.ru	clubx5.rucounter.yadro.rucrashlytics.com	crimea.ru	dadata.rudagestan.rudialogx5.rudonationalerts.comdzen.rudzeninfra.ru	e5.ruedgecastcdn.net
+edgecdn.ru
 edu.ru	ekburg.ru
 emias.info($firebaseinstallations.googleapis.comfivepost.rugazprombank.rugeobasket.rugosuslugi.ru
 gov.rugovernment.ru
@@ -767,33 +768,35 @@ karelia.rukazan.rukchr.rukemerovo.rukeyx5.rukhabar
 lipetsk.ru
 magadan.rumail.ru
 mari-el.rumari.ru	marine.rumediascope.netmedtrum.commemealerts.com	mgfoms.rumindbox.cloud
-mindbox.ru
+mindbox.rumir-connect.rumironline.ru
 mkb.rumnogolososya.rumoex.commordovia.rumore.tv
 mos.ru	mosreg.ru	mqcgm.com	mradx.netmurmansk.rumvk.commyapelsin.rumycdn.me
 nalchik.runalog.ru
 naydex.net
 ngenix.net	nn.ru
 nov.runovosibirsk.ru
-nsk.ru	o-cdn.como-static.com
+nsk.runspk.ru	o-cdn.como-static.com
 o3t.ru	o3tech.ruocdn.me	ok.ruokcdn.ru
 okko.sportokko.tv	okolo.appomsk.ruopen.ruopenbank.ru
 orb.ruoryol.ruozon-express.ruozon-tech.ruozon-travel.ruozon.byozon.cnozon.comozon.kzozon.ruozon.travelozonbank.ruozone.ruozonexpress.ruozonfinance.ruozonfresh.ruozonmetro.ru
 ozonpay.ruozonpharm.ru
-ozonpvz.ruozonseller.ruozonusercontent.com	paywb.compenza.ruperekrestok.comperekrestok.ruperm.ruplayfamily.rupobeda.aeropochtabank.rupoctech.compremier.one	psbank.rupsbinvest.rupsk
+ozonpvz.ruozonseller.ruozonusercontent.com
+pay.mts.ru	paywb.compenza.ruperekrestok.comperekrestok.ruperm.ruplayfamily.rupobeda.aeropochtabank.rupoctech.compremier.one	psbank.rupsbinvest.rupsk
 psk.rupskov.ru
-ptz.ruraiffeisen.ruraiffeisenbank.ru
+ptz.ruraiffeisen.ruraiffeisenbank.ru
+rambler.ru
 ren.tvrestream-media.netrkomi.ru
 rnd.ru
 rosbank.rurostaxi.org
 routeq.comrshb.ru	rtbcdn.ru	russia.tv	rutube.rurutubelist.ru
 rwb.ru	ryazan.rusakhalin.ru	samara.ru
-saratov.rusatellite.onlinesber.rusberbank.comsberbank.rusberspasibo.rusbrf.ru
+saratov.rusatellite.onlinesber.rusberbank.comsberbank.rusberspasibo.rusbrf.ru#securepayments.cloudpayments.ru
 sev.rusevastopol.rusimbirsk.rusinocare.comsmolensk.rusovcombank.ru
-spb.rustavropol.ru
+spb.rustavropol.rustorage.googleapis.com
 stv.ru	surgut.rusyailink.com	tambov.rutarget.my.comtatarstan.rutbank.ru
 tcsbank.ru
 tinkoff.rutns-counter.ru
-tom.rutomsk.rutop100-images.rambler.rutop100.rambler.rutracker.mytarget.rutrackermail.rutsaritsyn.ru
+tom.rutomsk.rutracker.mytarget.rutrackermail.rutsaritsyn.ru
 tsk.rutula.ruturbopages.orgtuva.rutver.ru	tyumen.ru
 udm.ruudmurtia.ruulan-ude.ru
 uralsib.ruuserapi.comuxfeedback.iouxfeedback.ru	vgtrk.com
@@ -820,7 +823,7 @@ yakutia.ruyamal.ru
 yandex.comyandex.com.amyandex.com.geyandex.com.ruyandex.com.tryandex.com.ua	yandex.de	yandex.ee	yandex.eu	yandex.fi	yandex.fryandex.jobs	yandex.kg	yandex.kz	yandex.lt	yandex.lv	yandex.md
 yandex.net
 yandex.org	yandex.pl	yandex.ru	yandex.st	yandex.sx	yandex.tj	yandex.tm	yandex.tr	yandex.ua	yandex.uzyandexadexchange.netyandexcloud.netyandexcom.netyandexmetrica.comyandexwebcache.orgyaroslavl.ru
-yastat.netyastatic.netyoudrive.today
+yastat.netyastatic.netyookassa.ruyoudrive.today
 yuwell.comyuzhno-sakhalinsk.ru
 %
 DZENdzen.rudzeninfra.ru
@@ -880,6 +883,11 @@ tcsbank.ru
 tinkoff.ru
 uralsib.ruvtb.com
 vtb.ru
+¶
+RU-CDNcaptcha-api.yandex.rucaptcha.yandex.rucdnvideo.netcdnvideo.ru	dadata.ruedgecastcdn.net
+edgecdn.ru
+ngenix.net
+rambler.rus3.yandexcloud.net smartcaptcha.yandexcloud.netstorage.googleapis.comstorage.yandexcloud.netyastatic.net
 .
 
 RU-FINANCEhonestmark.orgmoex.com
@@ -887,6 +895,10 @@ RU-FINANCEhonestmark.orgmoex.com
 
 RU-MEDICALicancgm.cominme.pressuremedtrum.com	mqcgm.compoctech.comsinocare.comsyailink.com
 yuwell.com
+¦
+RU-PAYMENTS3dsecure.tinkoff.ru3dsecure.vtb.ruacquiring.tinkoff.ruacs.alfabank.ruacs.raiffeisen.ruacs.tcsbank.ruacs.tinkoff.ru
+acs.vtb.ruapi.cloudpayments.rugazprombank.rumir-connect.rumironline.runspk.ru
+pay.mts.rusberbank.rusecurepay.alfabank.rusecurepay.tinkoff.ru#securepayments.cloudpayments.ruyookassa.ru
 P
 RU-TRANSPORTicq.compobeda.aero
 routeq.comyoudrive.today
