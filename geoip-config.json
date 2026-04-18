@@ -63,6 +63,14 @@
         "name": "ru-ozon",
         "uri": "./data-geoip/ru-ozon.txt"
       }
+    },
+    {
+      "type": "text",
+      "action": "add",
+      "args": {
+        "name": "ru-analytics",
+        "uri": "./data-geoip/ru-analytics.txt"
+      }
     }
   ],
   "output": [
