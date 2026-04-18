@@ -27,3 +27,10 @@ domain:yookassa.ru
 domain:api.yookassa.ru
 domain:securepayments.cloudpayments.ru
 domain:api.cloudpayments.ru
+domain:sber.ru
+domain:id.sber.ru
+domain:auth.sber.ru
+domain:login.sber.ru
+domain:sberid.sber.ru
+domain:sbid.sber.ru
+domain:online.sbi.sberbank.ru
