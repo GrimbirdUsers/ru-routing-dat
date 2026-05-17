@@ -20,3 +20,4 @@ include:ru-banks
 include:ru-analytics
 include:ru-payments
 include:ru-cdn
+include:ru-whitelist-extended

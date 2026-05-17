@@ -1,0 +1,155 @@
+# Расширение whitelist согласно официальному списку Минцифры РФ (на 17.05.2026)
+# Источники: Habr 23.04.2026, Wikipedia, T-J, Gazeta.Ru, GoGov, Meduza
+# Только домены ПОДТВЕРЖДЁННЫХ участников белого списка + домены РКН/НСДИ как госинфраструктура
+
+# === Погода ===
+domain:gismeteo.ru
+domain:gismeteo.com
+
+# === Работа ===
+domain:hh.ru
+domain:headhunter.ru
+domain:hhcdn.ru
+
+# === Транспорт ===
+domain:tutu.ru
+domain:rzd.ru
+domain:rzd-bonus.ru
+domain:pass.rzd.ru
+domain:ticket.rzd.ru
+
+# === Такси (Максим) ===
+domain:taximaxim.ru
+
+# === Операторы связи (личные кабинеты — в списке Минцифры) ===
+domain:t2.ru
+domain:tele2.ru
+domain:lk.t2.ru
+domain:beeline.ru
+domain:lk.beeline.ru
+domain:megafon.ru
+domain:lk.megafon.ru
+domain:mts.ru
+domain:login.mts.ru
+domain:rt.ru
+domain:rostelecom.ru
+domain:lk.rt.ru
+domain:motivtelecom.ru
+domain:sbermobile.ru
+domain:tmobile.ru
+
+# === Мессенджер MAX (национальный) ===
+domain:max.ru
+domain:oneme.ru
+domain:max-messenger.ru
+
+# === ДЭГ (электронное голосование) и ЦИК ===
+domain:cikrf.ru
+domain:izbirkom.ru
+domain:vybory.gov.ru
+
+# === СМИ из официального списка ===
+domain:gazeta.ru
+domain:lenta.ru
+domain:rbc.ru
+domain:kp.ru
+domain:ria.ru
+domain:tass.ru
+domain:rg.ru
+domain:kommersant.ru
+domain:iz.ru
+domain:aif.ru
+domain:mk.ru
+domain:1tv.ru
+domain:ntv.ru
+domain:vesti.ru
+domain:russian.rt.com
+domain:rt.com
+domain:vgtrk.ru
+domain:matchtv.ru
+domain:zvezdaweekly.ru
+domain:tvzvezda.ru
+domain:parlgazeta.ru
+domain:smotrim.ru
+domain:solovievlive.ru
+
+# === Ритейл (расширение списка от 23.04.2026) ===
+domain:lenta.com
+domain:supermarket.lenta.com
+domain:okeydostavka.ru
+domain:dostavista.ru
+domain:dodopizza.ru
+domain:dodo.ru
+domain:burgerking.ru
+domain:vkusnoitochka.ru
+domain:vkusvill.ru
+domain:auchan.ru
+domain:metro-cc.ru
+domain:spar.ru
+domain:petrovich.ru
+domain:azbukavkusa.ru
+domain:magnit.ru
+domain:dixy.ru
+domain:5ka.ru
+domain:perekrestok.ru
+
+# === Каршеринг и доставка (расширение 23.04.2026) ===
+domain:delimobil.ru
+domain:belkacar.ru
+domain:citydrive.ru
+domain:cdek.ru
+domain:dellin.ru
+domain:samokat.ru
+domain:kuper.ru
+
+# === Медицина (расширение 23.04.2026) ===
+domain:medsi.ru
+domain:mamadeti.ru
+domain:smclinic.ru
+
+# === Госорганы и сервисы (расширение к category-gov-ru) ===
+domain:mvd.ru
+domain:mchs.gov.ru
+domain:genproc.gov.ru
+domain:nalog.gov.ru
+domain:nalog.ru
+domain:fns.ru
+domain:duma.gov.ru
+domain:council.gov.ru
+domain:cbr.ru
+domain:moex.com
+domain:roskachestvo.gov.ru
+domain:explain.rf
+domain:obyasnyaem.rf
+
+# === РКН и Национальная Система Доменных Имён (госинфраструктура) ===
+domain:rkn.gov.ru
+domain:eais.rkn.gov.ru
+domain:rublacklist.net
+domain:nsdi.ru
+domain:auth-nsdi.ru
+domain:res-nsdi.ru
+
+# === Госкорпорации (добавлены 23.04.2026) ===
+domain:rosatom.ru
+domain:rostec.ru
+domain:rosneft.ru
+domain:nornickel.ru
+domain:rosseti.ru
+
+# === Прочие сервисы из списка ===
+domain:1c.ru
+domain:trueconf.ru
+domain:hrlink.ru
+domain:ruwiki.ru
+domain:znanierussia.ru
+domain:dobro.ru
+domain:liza-alert.org
+domain:onf.ru
+domain:rossvyaz.ru
+domain:honestsign.ru
+domain:crpt.ru
+domain:glonass.gov.ru
+domain:khl.ru
+domain:sport24.ru
+domain:dvizhenie-pervyh.ru
