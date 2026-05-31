@@ -137,6 +137,40 @@ domain:rosneft.ru
 domain:nornickel.ru
 domain:rosseti.ru
 
+# === Расширение от мая 2026 (новые в белом списке) ===
+# Источники: expert.ru 07.05.2026, aif Новосибирск 13.05.2026, gogov 22.05.2026
+domain:detmir.ru
+domain:megamarket.ru
+domain:sbermegamarket.ru
+domain:mtsbank.ru
+domain:auto.ru
+domain:kremlin.ru
+domain:pochta.ru
+domain:lizaalert.org
+
+# Операторы новые (май 2026)
+domain:vtbmobile.ru
+domain:nextmobile.ru
+
+# Телеканалы новые
+domain:360tv.ru
+domain:dumatv.ru
+domain:tvshowcase.ru
+domain:vmeste-rf.tv
+
+# Транспорт
+domain:grandtrain.ru
+
+# Госорганы
+domain:gis-zkh.ru
+domain:fk.gov.ru
+domain:rosagroleasing.ru
+
+# ИТ / ЭДО (НОВОЕ май 2026)
+domain:tensor.ru
+domain:kontur.ru
+domain:evotor.ru
+
 # === Прочие сервисы из списка ===
 domain:1c.ru
 domain:trueconf.ru
