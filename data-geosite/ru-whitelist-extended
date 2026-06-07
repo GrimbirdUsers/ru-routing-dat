@@ -187,3 +187,16 @@ domain:glonass.gov.ru
 domain:khl.ru
 domain:sport24.ru
 domain:dvizhenie-pervyh.ru
+
+# Added 2026-06-07 — Mincifry whitelist additions verified
+# Source: Lenta 26.05, sib.fm 14.05, lred 28.05, RuNews24 14.05
+domain:aeroflot.ru
+domain:pyaterochka.ru
+domain:chizhik.ru
+domain:vprok.ru
+domain:mnogolososya.ru
+domain:domclick.ru
+domain:aoglonass.ru
+domain:khl.ru
+domain:rvision.pro
+domain:csat.ru
