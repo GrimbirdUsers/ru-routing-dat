@@ -21,3 +21,5 @@ include:ru-analytics
 include:ru-payments
 include:ru-cdn
 include:ru-whitelist-extended
+include:ru-marking
+include:ru-retail-extra

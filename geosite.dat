@@ -744,7 +744,7 @@ yandex.net
 yandex.org	yandex.pl	yandex.st	yandex.sx	yandex.tj	yandex.tm	yandex.tr	yandex.ua	yandex.uzyandexadexchange.netyandexcloud.netyandexcom.netyandexmetrica.comyandexwebcache.org
 yastat.netyastatic.netyoudrive.today
 yuwell.com
-–@
+æ@
 CATEGORY-RU-WHITELIST	1c.ru
 1tv.ru2gis.com2gis.ru360tv.ru
 5ka.ru5post.marketadfox.ruadmetrica.ru
@@ -773,8 +773,8 @@ izhevsk.rujamal.ru
 karelia.rukazan.rukchr.rukemerovo.rukeyx5.rukhabarovsk.rukhakassia.ru
 khl.ru
 khv.rukinopoisk-ru.clstorage.netkinopoisk.rukirov.ru	koenig.rukommersant.ru	kontur.rukostroma.ru	kp.rukrasnodar.sukrasnoyarsk.ru
-kremlin.rukuban.rukuper.ru	kurgan.rukursk.ru	lenta.comlenta.ru
-lipetsk.ruliza-alert.orglizaalert.org
+kremlin.rukuban.rukuper.ru	kurgan.rukursk.rulemanapro.ru	lenta.comlenta.ru
+lipetsk.ruliza-alert.orglizaalert.org	lmru.tech
 magadan.ru	magnit.rumail.rumamadeti.ru
 mari-el.rumari.ru	marine.ru
 matchtv.rumax-messenger.ru
@@ -792,7 +792,8 @@ ngenix.net	nn.runornickel.ru
 nov.runovosibirsk.runsdi.ru
 nsk.runspk.ru
 ntv.ru	o-cdn.como-static.com
-o3t.ru	o3tech.ruobyasnyaem.rfocdn.me	ok.ruokcdn.ruokeydostavka.ru
+o3t.ru	o3tech.ruobyasnyaem.rfocdn.me
+ofd.ru	ok.ruokcdn.ruokeydostavka.ru
 okko.sportokko.tv	okolo.appomsk.ruoneme.ru
 onf.ruopen.ruopenbank.ru
 orb.ruoryol.ruozon-express.ruozon-tech.ruozon-travel.ruozon.byozon.cnozon.comozon.kzozon.ru	ozon.techozon.travelozonbank.ruozone.ruozonexpress.ruozonfinance.ruozonfresh.ruozonmetro.ru
@@ -844,7 +845,7 @@ x5.digitalx5.groupx5.media	x5.rux5.teamx5.tech
 x5l.ru
 x5paket.ru
 x5q.rux5static.net
-x5w.ru xn--80acgfbsl1azdqr.xn--p1aixn--d1acpjx3f.xn--p1ai	ya.ru	yads.tech
+x5w.ru xn--80acgfbsl1azdqr.xn--p1ai!xn--80ajghhoc2aj1c8b.xn--p1aixn--d1acpjx3f.xn--p1ai	ya.ru	yads.tech
 yakutia.ruyamal.ru
 yandexyandex-bank.netyandex-images.clstorage.netyandex-team.ruyandex.aero	yandex.az	yandex.byyandex.cloudyandex.co.il
 yandex.comyandex.com.amyandex.com.geyandex.com.ruyandex.com.tryandex.com.ua	yandex.de	yandex.ee	yandex.eu	yandex.fi	yandex.fryandex.jobs	yandex.kg	yandex.kz	yandex.lt	yandex.lv	yandex.md
@@ -901,10 +902,11 @@ tplogin.cnwww.asusrouter.comwww.miwifi.comwww.routerlogin.com
 Ú
 RU-ANALYTICSadfox.ruan.yandex.netan.yandex.ruapp-measurement.comappmetrica.yandex.netappmetrica.yandex.ruappmetrika.yandex.ruclck.yandex.rucounter.yadro.rucrashlytics.com($firebaseinstallations.googleapis.commc.yandex.netmc.yandex.rumediascope.netmetrika.yandex.netmetrika.yandex.rumindbox.cloud
 mindbox.rumytracker.mail.rupush.yandex.netsberspasibo.rusdk-analytics.ozon.rusentry.ozon.rustartup.mobile.yandex.netstrm.yandex.nettarget.my.comtns-counter.rutop-fwz1.mail.rutop100-images.rambler.rutop100.rambler.rutracker.mytarget.rutrackermail.ruuxfeedback.iouxfeedback.ruwebvisor.comwebvisor.orgyandexadexchange.netyandexmetrica.com
-í
+ù
 RU-BANKS	akbars.rualfabank.comalfabank.rubspb.rudomclick.rugazprombank.ru
 gpb.ruhome-credit.ruhomecredit.ru
-mkb.ruopen.ruopenbank.rupochtabank.ru	psbank.rupsbinvest.ruraiffeisen.ruraiffeisenbank.ru
+mkb.ru
+ofd.ruopen.ruopenbank.rupochtabank.ru	psbank.rupsbinvest.ruraiffeisen.ruraiffeisenbank.ru
 rosbank.rurshb.rusber.rusberbank.comsberbank.rusbrf.rusovcombank.rutbank.ru
 tcsbank.ru
 tinkoff.ru
@@ -918,6 +920,9 @@ rambler.rus3.yandexcloud.net smartcaptcha.yandexcloud.netstorag
 .
 
 RU-FINANCEhonestmark.orgmoex.com
+<
+
+RU-MARKINGcrpt.ru!xn--80ajghhoc2aj1c8b.xn--p1ai
 •
 
 RU-MEDICALicancgm.cominme.pressuremedtrum.com	mqcgm.compoctech.comsinocare.comsyailink.com
@@ -926,6 +931,8 @@ yuwell.com
 RU-PAYMENTS3dsecure.tinkoff.ru3dsecure.vtb.ruacquiring.tinkoff.ruacs.alfabank.ruacs.raiffeisen.ruacs.tcsbank.ruacs.tinkoff.ru
 acs.vtb.ruapi.cloudpayments.rugazprombank.rumir-connect.rumironline.runspk.ru
 pay.mts.rusber.rusberbank.rusecurepay.alfabank.rusecurepay.tinkoff.ru#securepayments.cloudpayments.ruyookassa.ru
+2
+RU-RETAIL-EXTRAlemanapro.ru	lmru.tech
 a
 RU-TRANSPORTaeroflot.ruicq.compobeda.aero
 routeq.comyoudrive.today
@@ -933,7 +940,7 @@ q
 RU-TVmore.tvpremier.one
 ren.tv	russia.tv	vgtrk.com
 vitrina.tvvmeste-rf.tv
-Œ
+Ü
 RU-WHITELIST-EXTENDED	1c.ru
 1tv.ru360tv.ru
 5ka.ruaeroflot.ru
@@ -945,14 +952,15 @@ explain.rf	fk.gov.ru
 fns.ru	gazeta.rugenproc.gov.ru
 gis-zkh.rugismeteo.comgismeteo.ruglonass.gov.rugrandtrain.ruheadhunter.ru	hh.ruhhcdn.ruhonestsign.ru	hrlink.ru	iz.ruizbirkom.ru
 khl.rukommersant.ru	kontur.ru	kp.ru
-kremlin.rukuper.ru	lenta.comlenta.ruliza-alert.orglizaalert.org	magnit.rumamadeti.ru
+kremlin.rukuper.rulemanapro.ru	lenta.comlenta.ruliza-alert.orglizaalert.org	lmru.tech	magnit.rumamadeti.ru
 matchtv.rumax-messenger.ru
 max.rumchs.gov.rumedsi.ru
 megafon.rumegamarket.rumetro-cc.ru	mk.rumnogolososya.rumoex.commotivtelecom.ru
 mts.ru
 mtsbank.ru
 mvd.runalog.gov.runalog.runextmobile.runornickel.runsdi.ru
-ntv.ruobyasnyaem.rfokeydostavka.ruoneme.ru
+ntv.ruobyasnyaem.rf
+ofd.ruokeydostavka.ruoneme.ru
 onf.ruparlgazeta.ruperekrestok.rupetrovich.ru	pochta.rupyaterochka.ru
 rbc.rures-nsdi.ru	rg.ru
 ria.ru
@@ -965,7 +973,7 @@ rosseti.rurossvyaz.ru	rostec.rurostelecom.ru
 samokat.rusbermegamarket.rusbermobile.rusmclinic.ru
 smotrim.rusolovievlive.ruspar.ru
 sport24.ru	t2.rutass.rutaximaxim.rutele2.ru	tensor.ru
-tmobile.rutrueconf.rututu.rutvshowcase.rutvzvezda.ruvesti.ruvgtrk.ruvkusnoitochka.ruvkusvill.ruvmeste-rf.tvvprok.ruvtbmobile.ruvybory.gov.ruznanierussia.ruzvezdaweekly.ru
+tmobile.rutrueconf.rututu.rutvshowcase.rutvzvezda.ruvesti.ruvgtrk.ruvkusnoitochka.ruvkusvill.ruvmeste-rf.tvvprok.ruvtbmobile.ruvybory.gov.ru!xn--80ajghhoc2aj1c8b.xn--p1aiznanierussia.ruzvezdaweekly.ru
 9
 RUTUBE	rtbcdn.ru	rutube.rurutubelist.ru
 N
