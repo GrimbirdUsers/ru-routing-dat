@@ -41,11 +41,11 @@ https://raw.githubusercontent.com/GrimbirdUsers/ru-routing-dat/main/geoip.dat
 
 ## Три готовых профиля
 
-| Профиль | Direct (напрямую, без VPN) | Proxy (через VPN) | Для кого |
-|---|---|---|---|
-| **WHITELIST** | Только белый список Минцифры + СБП + госорганы + ретейл + RU IP-подсети | Всё остальное | Максимальная приватность, для тех кто использует VPN 24/7 |
-| **DEFAULT** | Всё из WHITELIST + Yandex, VK, Mail.ru, OK, Dzen, Rutube, 2GIS, Avito, X5, Okko, Wink + Apple, iCloud | YouTube, Google, Google Play, Telegram | Универсальный вариант, оптимальный баланс |
-| **JSONSUB** | Только private (локальная сеть) | Всё остальное | Минимальный шаблон для подписок XrayCore JSON / Remnawave |
+| Профиль | Direct (напрямую, без VPN) | Proxy (через VPN) |
+|---|---|---|
+| **WHITELIST** | Только белый список Минцифры + СБП + госорганы + ретейл + RU IP-подсети | Всё остальное |
+| **DEFAULT** | Всё из WHITELIST + Yandex, VK, Mail.ru, OK, Dzen, Rutube, 2GIS, Avito, X5, Okko, Wink + Apple, iCloud | YouTube, Google, Google Play, Telegram |
+| **JSONSUB** | Только private (локальная сеть) | Всё остальное |
 
 ---
 
@@ -228,20 +228,6 @@ rules:
 **Гранулярные категории.** Вместо одного `whitelist` — 63 категории geosite и 11 geoip. Можно точечно управлять маршрутизацией: направить Ozon direct, а YouTube через прокси; Wildberries direct, а Google через прокси.
 
 **Полное покрытие ретейла и СМИ РФ.** Ашан, Азбука Вкуса, Чижик, Delimobil, Belkacar, Достависта, 1tv, dumatv — то что часто пропускают в универсальных списках.
-
----
-
-## Сравнение с аналогами
-
-| | ru-routing-dat | v2fly/domain-list-community | hydraponique/roscomvpn-geosite |
-|---|---|---|---|
-| Философия | Только Минцифры | Общий | Расширенный (много «серых» доменов) |
-| Категорий geosite | 63 | ~500 | ~25 |
-| Категорий geoip | 11 | 200+ | 3 |
-| Обновление ru.txt | Еженедельно (cron) | Периодически | Ежедневно |
-| Профили Happ/Incy | ✅ 6 готовых | ❌ | ✅ (общие) |
-| DnsHosts | ✅ 12 записей | ❌ | ✅ 2 записи |
-| Гранулярность RU-сервисов | Высокая (по сервисам) | Средняя | Низкая (один whitelist) |
 
 ---
 
