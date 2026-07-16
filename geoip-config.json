@@ -87,6 +87,14 @@
         "name": "ru-cdn",
         "uri": "./data-geoip/ru-cdn.txt"
       }
+    },
+    {
+      "type": "text",
+      "action": "add",
+      "args": {
+        "name": "ru-avito",
+        "uri": "./data-geoip/ru-avito.txt"
+      }
     }
   ],
   "output": [

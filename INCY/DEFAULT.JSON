@@ -12,7 +12,7 @@
   "DomesticDNSIP": "77.88.8.8",
   "Geoipurl": "https://cdn.jsdelivr.net/gh/GrimbirdUsers/ru-routing-dat@main/geoip.dat",
   "Geositeurl": "https://cdn.jsdelivr.net/gh/GrimbirdUsers/ru-routing-dat@main/geosite.dat",
-  "LastUpdated": "1783714614",
+  "LastUpdated": "1784195991",
   "DnsHosts": {
     "lkfl2.nalog.ru": "213.24.64.175",
     "lknpd.nalog.ru": "213.24.64.181",
@@ -78,7 +78,8 @@
     "geoip:ru-payments",
     "geoip:ru-vk",
     "geoip:ru-wildberries",
-    "geoip:ru-yandex"
+    "geoip:ru-yandex",
+    "geoip:ru-avito"
   ],
   "ProxySites": [
     "geosite:youtube",
