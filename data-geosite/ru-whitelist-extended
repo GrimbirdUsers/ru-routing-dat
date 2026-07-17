@@ -208,3 +208,8 @@ domain:crpt.ru
 domain:lemanapro.ru
 domain:lmru.tech
 domain:ofd.ru
+
+# Added 2026-07-17 — ВсеИнструменты.ру (ПАО ВИ.ру, IPO MOEX 2024, тикер VSEH)
+# Verified: доступен при белых списках мобильных операторов
+domain:vseinstrumenti.ru
+domain:vi.ru

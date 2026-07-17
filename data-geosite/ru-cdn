@@ -14,3 +14,6 @@ domain:yastatic.net
 domain:dadata.ru
 domain:suggestions.dadata.ru
 domain:cleaner.dadata.ru
+
+# Added 2026-07-17 — Российский CDN cdnnow.ru (используется vseinstrumenti и др.)
+domain:cdnnow.ru
