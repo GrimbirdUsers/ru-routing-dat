@@ -213,3 +213,9 @@ domain:ofd.ru
 # Verified: доступен при белых списках мобильных операторов
 domain:vseinstrumenti.ru
 domain:vi.ru
+
+# Added 2026-07-21 — Пропуски в белом списке Минцифры/операторов
+# DNS (ФК DNS) — крупный электронный ретейлер, в белом списке Т-Бизнеса
+domain:dns-shop.ru
+# Sbermarket → Купер (kuper.ru уже есть), старое имя ещё активно
+domain:sbermarket.ru
