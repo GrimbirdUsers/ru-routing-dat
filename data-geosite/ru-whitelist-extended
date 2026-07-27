@@ -4,7 +4,6 @@
 
 # === Погода ===
 domain:gismeteo.ru
-domain:gismeteo.com
 
 # === Работа ===
 domain:hh.ru
@@ -63,7 +62,6 @@ domain:mk.ru
 domain:1tv.ru
 domain:ntv.ru
 domain:vesti.ru
-domain:russian.rt.com
 domain:rt.com
 domain:vgtrk.ru
 domain:matchtv.ru
@@ -75,7 +73,6 @@ domain:solovievlive.ru
 
 # === Ритейл (расширение списка от 23.04.2026) ===
 domain:lenta.com
-domain:supermarket.lenta.com
 domain:okeydostavka.ru
 domain:dostavista.ru
 domain:dodopizza.ru
@@ -90,8 +87,6 @@ domain:petrovich.ru
 domain:azbukavkusa.ru
 domain:magnit.ru
 domain:dixy.ru
-domain:5ka.ru
-domain:perekrestok.ru
 
 # === Каршеринг и доставка (расширение 23.04.2026) ===
 domain:delimobil.ru
@@ -112,12 +107,9 @@ domain:mvd.ru
 domain:mchs.gov.ru
 domain:genproc.gov.ru
 domain:nalog.gov.ru
-domain:nalog.ru
 domain:fns.ru
 domain:duma.gov.ru
 domain:council.gov.ru
-domain:cbr.ru
-domain:moex.com
 domain:roskachestvo.gov.ru
 domain:explain.rf
 domain:obyasnyaem.rf
@@ -125,7 +117,6 @@ domain:obyasnyaem.rf
 # === РКН и Национальная Система Доменных Имён (госинфраструктура) ===
 domain:rkn.gov.ru
 domain:eais.rkn.gov.ru
-domain:rublacklist.net
 domain:nsdi.ru
 domain:auth-nsdi.ru
 domain:res-nsdi.ru
@@ -146,7 +137,6 @@ domain:mtsbank.ru
 domain:auto.ru
 domain:kremlin.ru
 domain:pochta.ru
-domain:lizaalert.org
 
 # Операторы новые (май 2026)
 domain:vtbmobile.ru
@@ -156,7 +146,6 @@ domain:nextmobile.ru
 domain:360tv.ru
 domain:dumatv.ru
 domain:tvshowcase.ru
-domain:vmeste-rf.tv
 
 # Транспорт
 domain:grandtrain.ru
@@ -178,11 +167,9 @@ domain:hrlink.ru
 domain:ruwiki.ru
 domain:znanierussia.ru
 domain:dobro.ru
-domain:liza-alert.org
 domain:onf.ru
 domain:rossvyaz.ru
 domain:honestsign.ru
-domain:crpt.ru
 domain:glonass.gov.ru
 domain:khl.ru
 domain:sport24.ru
@@ -190,24 +177,12 @@ domain:dvizhenie-pervyh.ru
 
 # Added 2026-06-07 — Mincifry whitelist additions verified
 # Source: Lenta 26.05, sib.fm 14.05, lred 28.05, RuNews24 14.05
-domain:aeroflot.ru
-domain:pyaterochka.ru
-domain:chizhik.ru
-domain:vprok.ru
-domain:mnogolososya.ru
-domain:domclick.ru
 domain:aoglonass.ru
-domain:khl.ru
 domain:rvision.pro
 domain:csat.ru
 
 # Added 2026-06-18 — hxehex cross-check, Mincifry-confirmed
 # Sources: vc.ru/2224256, cnews.ru 06.05.2026, fontanka 14.11.2025, ca-rakurs
-domain:xn--80ajghhoc2aj1c8b.xn--p1ai
-domain:crpt.ru
-domain:lemanapro.ru
-domain:lmru.tech
-domain:ofd.ru
 
 # Added 2026-07-17 — ВсеИнструменты.ру (ПАО ВИ.ру, IPO MOEX 2024, тикер VSEH)
 # Verified: доступен при белых списках мобильных операторов
