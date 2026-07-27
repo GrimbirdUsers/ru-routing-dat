@@ -29,3 +29,7 @@ domain:akbars.ru
 domain:pochtabank.ru
 domain:domclick.ru
 domain:ofd.ru
+
+# Added 2026-07-27 — Т-Банк CDN (cdn-tinkoff.ru), не поддомен tbank.ru
+# Верифицирован в hxehex, у hydraponique, v2fly (data/tbank-ru)
+domain:cdn-tinkoff.ru

@@ -219,3 +219,7 @@ domain:vi.ru
 domain:dns-shop.ru
 # Sbermarket → Купер (kuper.ru уже есть), старое имя ещё активно
 domain:sbermarket.ru
+
+# Added 2026-07-27 — Федеральная территория Сириус (образовательный центр)
+# Верифицирован в hxehex
+domain:sochisirius.ru

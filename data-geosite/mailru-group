@@ -44,3 +44,8 @@ domain:vkvideo.ru
 domain:boosty.to
 domain:donationalerts.com
 domain:memealerts.com
+
+# Added 2026-07-27 — Отдельный домен второго уровня Mail.ru (спорт-вертикаль)
+# Верифицирован в hxehex, v2fly (data/mailru-group)
+# NB: sport.mail.ru — уже покрыт wildcard mail.ru, sportmail.ru — отдельный SLD
+domain:sportmail.ru
