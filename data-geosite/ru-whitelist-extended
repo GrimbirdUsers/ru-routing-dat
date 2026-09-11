@@ -73,6 +73,10 @@ domain:solovievlive.ru
 
 # === Ритейл (расширение списка от 23.04.2026) ===
 domain:lenta.com
+# Дом Лента — ребренд OBI, дочернее ООО «ДомЛента» группы «Лента»
+# Подтверждено пользователем как входящий в белый список Минцифры (2026-09-11)
+domain:domlenta.ru
+full:xn----8sbkf3aekd5b.xn--p1ai
 domain:okeydostavka.ru
 domain:dostavista.ru
 domain:dodopizza.ru
