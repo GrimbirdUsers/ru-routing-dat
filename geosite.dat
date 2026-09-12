@@ -751,19 +751,19 @@ yandex.net
 yandex.org	yandex.pl	yandex.st	yandex.sx	yandex.tj	yandex.tm	yandex.tr	yandex.ua	yandex.uzyandexadexchange.netyandexcloud.netyandexcom.netyandexmetrica.comyandexwebcache.org
 yastat.netyastatic.netyoudrive.today
 yuwell.com
-–C
+ŽD
 CATEGORY-RU-WHITELIST	1c.ru
 1tv.ru2gis.com2gis.ru360tv.ru
 5ka.ru5post.marketadfox.ruadmetrica.ru
 adygeya.ruaeroflot.ru
-aif.ru	akbars.rualfabank.comalfabank.rualtai.ruamur.ruaoglonass.ruapi.cloudpayments.ruapp-measurement.comarkhangelsk.ruastrakhan.ru	auchan.ruauth-nsdi.ruauto.ruautoteka.ruavito-services.comavito.ruavito.st
-avito.techazbukavkusa.rubashkiria.ru
+aif.ru	akbars.rualfabank.comalfabank.rualtai.ruamur.ruaoglonass.ruapi.cloudpayments.ruapp-measurement.com	apteka.ruarkhangelsk.ruastrakhan.ru	auchan.ruauth-nsdi.ruauto.ruautoteka.ruavito-services.comavito.ruavito.st
+avito.techazbukavkusa.rubanki.rubashkiria.ru
 beeline.rubelgorod.rubelkacar.ru
 bir.ru	boosty.to
 bryansk.rubspb.ruburgerking.ruburyatia.ru	bx-cdn.ru
 cbg.ru
 cbr.rucdek.rucdn-tinkoff.ru	cdn-vk.ru	cdnnow.rucdnvideo.netcdnvideo.ruchel.ruchelyabinsk.ruchita.ruchizhik.club
-chizhik.ruchukotka.ruchuvashia.rucikrf.rucitydrive.ru	clubx5.rucounter.yadro.rucrashlytics.com	crimea.rucrpt.rucsat.ru	dadata.rudagestan.rudelimobil.ru	dellin.ru	detmir.rudialogx5.rudixy.rudns-shop.rudobro.rudodo.rudodopizza.rudomclick.rudomlenta.rudomofond.rudonationalerts.comdostavista.ru	dumatv.rudvizhenie-pervyh.rudzen.rudzeninfra.ru	e5.ruedgecastcdn.net
+chizhik.ruchukotka.ruchuvashia.rucikrf.rucitydrive.ru	clubx5.rucounter.yadro.rucrashlytics.com	crimea.rucrpt.rucsat.ru	dadata.rudagestan.rudelimobil.ru	dellin.ru	detmir.rudialogx5.rudixy.rudns-shop.rudobro.rudodo.rudodopizza.rudomclick.rudomlenta.rudomofond.rudonationalerts.comdostavista.ru	drive2.rudrom.ru	dumatv.rudvizhenie-pervyh.rudzen.rudzeninfra.ru	e5.ruedgecastcdn.net
 edgecdn.ru
 edu.ru	ekburg.ru
 emias.info	evotor.ru
@@ -774,7 +774,8 @@ gis-zkh.rugismeteo.rugosuslugi.ru
 gpb.rugrandtrain.ru	grozny.rugu-st.ruheadhunter.ru	hh.ruhhcdn.ruhome-credit.ruhomecredit.ruhonestmark.orghonestsign.ru	hrlink.rui-ola.ruicancgm.comicq.comidx5.ruimgsmail.ruinme.pressure
 irk.ru
 irkutsk.ru
-ivanovo.ru	iz.ruizbirkom.ru
+ivanovo.ru
+ivi.ruixbt.com	iz.ruizbirkom.ru
 izhevsk.rujamal.ru
 jar.ru
 jx5.rukalmykia.ru	kaluga.rukamchatka.ru
@@ -806,7 +807,7 @@ okko.sportokko.tv	okolo.appomsk.ruoneme.ru
 onf.ruopen.ruopenbank.ru
 orb.ruoryol.ruozon-dostavka.ruozon-express.ruozon-tech.ruozon-travel.ruozon.byozon.cnozon.comozon.kzozon.ru	ozon.techozon.travelozonbank.ruozone.ruozonexpress.ruozonfinance.ruozonfresh.ruozonmetro.ruozonpartners.ru
 ozonpay.ruozonpharm.ru
-ozonpvz.ruozonseller.ruozonusercontent.comparlgazeta.ru	paywb.compenza.ruperekrestok.comperekrestok.ruperm.rupetrovich.ruplayfamily.rupobeda.aero	pochta.rupochtabank.rupoctech.compremier.one	psbank.rupsbinvest.rupsk
+ozonpvz.ruozonseller.ruozonusercontent.comparlgazeta.ru	paywb.compenza.ruperekrestok.comperekrestok.ruperm.rupetrovich.ru	pikabu.ruplayfamily.rupobeda.aero	pochta.rupochtabank.rupoctech.compremier.one	psbank.rupsbinvest.rupsk
 psk.rupskov.ru
 ptz.rupyaterochka.ruraiffeisen.ruraiffeisenbank.ru
 rambler.ru
@@ -834,7 +835,7 @@ tinkoff.ru
 tmobile.rutns-counter.ru
 tom.rutomsk.rutracker.mytarget.rutrackermail.rutrueconf.rutsaritsyn.ru
 tsk.rutula.ruturbopages.orgtutu.rutuva.rutver.rutvshowcase.rutvzvezda.ru	tyumen.ru
-udm.ruudmurtia.ruulan-ude.ru
+udm.ruudmurtia.ruulan-ude.ruunicreditbank.ru
 uralsib.ruuserapi.comuxfeedback.iouxfeedback.ruvesti.ru	vgtrk.comvgtrk.ru	vi.ru
 vitrina.tvvk-analytics.ruvk-apps.com
 vk-apps.ru	vk-cdn.me
@@ -1287,14 +1288,15 @@ q
 RU-TVmore.tvpremier.one
 ren.tv	russia.tv	vgtrk.com
 vitrina.tvvmeste-rf.tv
-ú
+ò
 RU-WHITELIST-EXTENDED	1c.ru
 1tv.ru360tv.ru
-aif.ruaoglonass.ru	auchan.ruauth-nsdi.ruauto.ruazbukavkusa.ru
-beeline.rubelkacar.ruburgerking.rucdek.rucikrf.rucitydrive.rucouncil.gov.rucsat.rudelimobil.ru	dellin.ru	detmir.rudixy.rudns-shop.rudobro.rudodo.rudodopizza.rudomlenta.rudostavista.ruduma.gov.ru	dumatv.rudvizhenie-pervyh.ru	evotor.ru
+aif.ruaoglonass.ru	apteka.ru	auchan.ruauth-nsdi.ruauto.ruazbukavkusa.rubanki.ru
+beeline.rubelkacar.ruburgerking.rucdek.rucikrf.rucitydrive.rucouncil.gov.rucsat.rudelimobil.ru	dellin.ru	detmir.rudixy.rudns-shop.rudobro.rudodo.rudodopizza.rudomlenta.rudostavista.ru	drive2.rudrom.ruduma.gov.ru	dumatv.rudvizhenie-pervyh.ru	evotor.ru
 explain.rf	fk.gov.ru
 fns.ru	gazeta.rugenproc.gov.ru
-gis-zkh.rugismeteo.ruglonass.gov.rugrandtrain.ruheadhunter.ru	hh.ruhhcdn.ruhonestsign.ru	hrlink.ru	iz.ruizbirkom.ru
+gis-zkh.rugismeteo.ruglonass.gov.rugrandtrain.ruheadhunter.ru	hh.ruhhcdn.ruhonestsign.ru	hrlink.ru
+ivi.ruixbt.com	iz.ruizbirkom.ru
 khl.rukommersant.ru	kontur.ru	kp.ru
 kremlin.rukuper.ru	lenta.comlenta.ru	magnit.rumamadeti.ru
 matchtv.rumax-messenger.ru
@@ -1304,7 +1306,7 @@ megafon.rumegamarket.rumetro-cc.ru	mk.rumotivtelecom.ru
 mtsbank.ru
 mvd.runalog.gov.runextmobile.runornickel.runsdi.ru
 ntv.ruobyasnyaem.rfokeydostavka.ruoneme.ru
-onf.ruparlgazeta.rupetrovich.ru	pochta.ru
+onf.ruparlgazeta.rupetrovich.ru	pikabu.ru	pochta.ru
 rbc.rures-nsdi.ru	rg.ru
 ria.ru
 rkn.gov.rurosagroleasing.ru
@@ -1316,7 +1318,7 @@ rosseti.rurossvyaz.ru	rostec.rurostelecom.ru
 samokat.rusbermarket.rusbermegamarket.rusbermobile.rusmclinic.ru
 smotrim.rusochisirius.rusolovievlive.ruspar.ru
 sport24.ru	t2.rutass.rutaximaxim.rutele2.ru	tensor.ru
-tmobile.rutrueconf.rututu.rutvshowcase.rutvzvezda.ruvesti.ruvgtrk.ru	vi.ruvkusnoitochka.ruvkusvill.ruvseinstrumenti.ruvtbmobile.ruvybory.gov.ruznanierussia.ruzvezdaweekly.ruxn----8sbkf3aekd5b.xn--p1ai
+tmobile.rutrueconf.rututu.rutvshowcase.rutvzvezda.ruunicreditbank.ruvesti.ruvgtrk.ru	vi.ruvkusnoitochka.ruvkusvill.ruvseinstrumenti.ruvtbmobile.ruvybory.gov.ruznanierussia.ruzvezdaweekly.ruxn----8sbkf3aekd5b.xn--p1ai
 9
 RUTUBE	rtbcdn.ru	rutube.rurutubelist.ru
 N
