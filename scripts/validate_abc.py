@@ -10,6 +10,7 @@ from pathlib import Path
 from urllib.parse import unquote
 
 from build_metadata import ROOT, entries, geosite_rules, render, source_lines
+from readme_tables import updated_readme
 
 # Explicit scope approved by the owner. Exact-host exceptions use full:.
 APPROVED = {
@@ -162,10 +163,11 @@ def validate(qr=False, baseline=None):
             codes = zxingcpp.read_barcodes(Image.open(path.with_suffix(".QR.png")))
             assert len(codes) == 1 and codes[0].text == link, f"QR mismatch: {path}"
     assert (ROOT / "CATEGORY_STATS.md").read_text() == render()
+    assert (ROOT / "README.md").read_text() == updated_readme(), "README tables are stale"
     print(f"PASS: {len(data)} geosite categories match effective source")
     print(f"PASS: {sum(len(v.split()) for v in APPROVED.values())} approved domain rules covered")
     print(f"PASS: {len(whitelist)} compiled whitelist rules; exact-host boundaries retained")
-    print("PASS: removals, Twitch split, 6 profile references/deeplinks, build statistics")
+    print("PASS: removals, Twitch split, 6 profile references/deeplinks, build statistics and README tables")
     if qr:
         print("PASS: both DEFAULT QR codes decode to their current deeplinks")
     if baseline:

@@ -106,14 +106,19 @@ def render():
 
 
 if __name__ == "__main__":
+    from readme_tables import updated_readme
+
     parser = argparse.ArgumentParser()
     parser.add_argument("--check", action="store_true")
     args = parser.parse_args()
     output = ROOT / "CATEGORY_STATS.md"
     text = render()
+    readme = updated_readme()
     if args.check:
         assert output.read_text() == text, "CATEGORY_STATS.md is stale"
-        print("PASS: build statistics match current files")
+        assert (ROOT / "README.md").read_text() == readme, "README tables are stale"
+        print("PASS: build statistics and README tables match current files")
     else:
         output.write_text(text)
-        print(f"Generated {output.name}")
+        (ROOT / "README.md").write_text(readme)
+        print(f"Generated {output.name} and README routing tables")
