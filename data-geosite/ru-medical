@@ -3,6 +3,9 @@ domain:medtrum.com
 domain:sinocare.com
 domain:poctech.com
 domain:syailink.com
-domain:inme.pressure
 domain:mqcgm.com
 domain:yuwell.com
+
+# Approved audit C06, 2026-09-30. Not a claim of complete app/API coverage.
+domain:mcclinics.ru
+domain:libreview.ru

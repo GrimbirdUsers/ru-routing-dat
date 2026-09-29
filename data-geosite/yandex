@@ -54,3 +54,15 @@ domain:yastat.net
 domain:yastatic.net
 domain:kinopoisk.ru
 domain:kinopoisk-ru.clstorage.net
+
+# Approved audit B16-B17, 2026-09-30.
+# Shared CDN zones explicitly approved; no ASN/IP expansion.
+# https://github.com/v2fly/domain-list-community/blob/master/data/yandex
+domain:ya.cc
+domain:clck.ru
+domain:yccdn.ru
+domain:yndx.net
+domain:static-storage.net
+domain:yastatic-net.ru
+full:report.ap.yandex-net.ru
+domain:clstorage.net

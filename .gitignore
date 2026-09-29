@@ -1,3 +1,5 @@
 *.bak
 data-geosite/*.bak
 data-geoip/*.bak
+__pycache__/
+*.py[cod]

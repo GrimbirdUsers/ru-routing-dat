@@ -34,3 +34,11 @@ domain:login.sber.ru
 domain:sberid.sber.ru
 domain:sbid.sber.ru
 domain:online.sbi.sberbank.ru
+
+# Approved audit B05/B18, 2026-09-30.
+domain:vkpay.ru
+domain:vkpay.com
+domain:vkpay.app
+domain:vkpay.io
+domain:payecom.ru
+domain:platiecom.ru

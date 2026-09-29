@@ -9,3 +9,11 @@ domain:wbpay.ru
 domain:wbstatic.net
 domain:wibes.ru
 domain:wildberries.ru
+
+# Approved audit A01/B19, 2026-09-30.
+# https://github.com/v2fly/domain-list-community/blob/master/data/wildberries
+domain:wbcontent.net
+domain:paywb.ru
+domain:wb-bank.ru
+domain:wbstatic.ru
+domain:wibes.com

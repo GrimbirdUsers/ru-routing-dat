@@ -1,0 +1,14 @@
+# Historical helper/advertising set formerly stored as twitch.
+# Preserved separately by approved audit A03, 2026-09-30.
+# Not included in twitch or category-ru-whitelist.
+full:ads.twitch.tv
+full:spade.twitch.tv
+full:imasdk.googleapis.com
+full:sb.scorecardresearch.com
+full:global.poe.live-video.net
+full:auth.brandis.us
+full:reporting.cdndex.io
+full:playlist.ttvnw.net
+domain:kouch.tv
+domain:amazon-adsystem.com
+domain:doubleclick.net

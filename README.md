@@ -1,247 +1,94 @@
 # ru-routing-dat
 
-Собственные `geosite.dat` и `geoip.dat` для российского split-tunneling'а в **Happ**, **Incy**, **Xray**, **v2ray**, **sing-box**, **Mihomo** (Clash Meta).
+Собственные `geosite.dat` и `geoip.dat` для российского split tunneling. Исходники категорий и профили Happ/Incy хранятся вместе со сборками, чтобы изменения можно было проверить.
 
-Проект строится по принципу **строгого соответствия белому списку Минцифры** — только официально одобренные домены и IP-подсети, без «серых» расширений.
+## Принцип отбора
 
----
+Это курируемый набор правил маршрутизации, а не копия официального белого списка. Подтверждение Минцифры не является обязательным условием: учитываются принадлежность сервису, технические зависимости, проверяемые источники и согласованная политика проекта.
 
-## Быстрый старт
+Включение домена не гарантирует доступность у любого оператора, отсутствие VPN-детектирования или полноту покрытия приложения. Общие CDN-зоны могут обслуживать сторонних клиентов; решение направлять их напрямую распространяется на соответствующие домены и поддомены, но не добавляет автоматически IP-диапазоны провайдера.
 
-### Happ (iOS) / Incy (Android)
-
-Импортируйте профиль одним кликом:
+## Файлы и импорт
 
 | Клиент | WHITELIST | DEFAULT | JSONSUB |
 |---|---|---|---|
-| **Happ** | [import](https://raw.githubusercontent.com/GrimbirdUsers/ru-routing-dat/main/HAPP/WHITELIST.DEEPLINK) | [import](https://raw.githubusercontent.com/GrimbirdUsers/ru-routing-dat/main/HAPP/DEFAULT.DEEPLINK) | [import](https://raw.githubusercontent.com/GrimbirdUsers/ru-routing-dat/main/HAPP/JSONSUB.DEEPLINK) |
-| **Incy** | [import](https://raw.githubusercontent.com/GrimbirdUsers/ru-routing-dat/main/INCY/WHITELIST.DEEPLINK) | [import](https://raw.githubusercontent.com/GrimbirdUsers/ru-routing-dat/main/INCY/DEFAULT.DEEPLINK) | [import](https://raw.githubusercontent.com/GrimbirdUsers/ru-routing-dat/main/INCY/JSONSUB.DEEPLINK) |
+| Happ | [deeplink](https://raw.githubusercontent.com/GrimbirdUsers/ru-routing-dat/main/HAPP/WHITELIST.DEEPLINK) | [deeplink](https://raw.githubusercontent.com/GrimbirdUsers/ru-routing-dat/main/HAPP/DEFAULT.DEEPLINK) | [deeplink](https://raw.githubusercontent.com/GrimbirdUsers/ru-routing-dat/main/HAPP/JSONSUB.DEEPLINK) |
+| Incy | [deeplink](https://raw.githubusercontent.com/GrimbirdUsers/ru-routing-dat/main/INCY/WHITELIST.DEEPLINK) | [deeplink](https://raw.githubusercontent.com/GrimbirdUsers/ru-routing-dat/main/INCY/DEFAULT.DEEPLINK) | [deeplink](https://raw.githubusercontent.com/GrimbirdUsers/ru-routing-dat/main/INCY/JSONSUB.DEEPLINK) |
 
-QR-коды для сканирования: смотрите папки [`HAPP/`](./HAPP/) и [`INCY/`](./INCY/).
+Файл `.DEEPLINK` содержит URI для открытия в клиенте, а не обычную HTTP-подписку. QR-коды и исходные JSON находятся в [HAPP](./HAPP/) и [INCY](./INCY/); порядок импорта описан в [инструкции](./HAPP_INCY_USAGE.md).
 
-Подробная документация профилей — [HAPP_INCY_USAGE.md](./HAPP_INCY_USAGE.md).
+Готовые базы:
 
-### Xray / v2ray / sing-box
-
-Скачайте `.dat` файлы через CDN (jsDelivr — быстро, кэш) или напрямую с GitHub:
-
-**jsDelivr CDN (рекомендуется):**
-```
+```text
 https://cdn.jsdelivr.net/gh/GrimbirdUsers/ru-routing-dat@main/geosite.dat
 https://cdn.jsdelivr.net/gh/GrimbirdUsers/ru-routing-dat@main/geoip.dat
-```
-
-**Прямо с GitHub:**
-```
 https://raw.githubusercontent.com/GrimbirdUsers/ru-routing-dat/main/geosite.dat
 https://raw.githubusercontent.com/GrimbirdUsers/ru-routing-dat/main/geoip.dat
 ```
 
----
+CDN и клиент могут кэшировать файлы. После обновления правил обновите базу в клиенте; после изменения самого профиля импортируйте обновлённый профиль.
 
-## Три готовых профиля
+## Профили и границы изменений
 
-| Профиль | Direct (напрямую, без VPN) | Proxy (через VPN) |
-|---|---|---|
-| **WHITELIST** | Только белый список Минцифры + СБП + госорганы + ретейл + RU IP-подсети | Всё остальное |
-| **DEFAULT** | Всё из WHITELIST + Yandex, VK, Mail.ru, OK, Dzen, Rutube, 2GIS, Avito, X5, Okko, Wink + Apple, iCloud | YouTube, Google, Google Play, Telegram |
-| **JSONSUB** | Только private (локальная сеть) | Всё остальное |
-
----
-
-## Категории geosite (63 категории, ~11 000 доменов)
-
-### Российский белый список Минцифры
-
-| Категория | Доменов | Что покрывает |
-|---|---|---|
-| `category-ru-whitelist` | **513** | **Мета-категория: включает все whitelist-подкатегории** |
-| `ru-whitelist-extended` | 146 | Основной whitelist от Минцифры (расширенный) |
-| `category-gov-ru` | 119 | gosuslugi.ru, nalog.ru, cbr.ru, mos.ru, региональные gov |
-| `category-ru` | 112 | Общие RU-анкоры (.ru/.su/.рф/.moscow) |
-
-### Крупные RU-сервисы
-
-| Категория | Доменов | Сервисы |
-|---|---|---|
-| `yandex` | 56 | Все домены Яндекса (ya.ru, turbopages, adfox, webvisor) |
-| `mailru-group` | 46 | Mail.ru + OK.ru + Dzen.ru + VK-стек |
-| `ozon` | 31 | Ozon.ru + все CDN (ozone.ru, ozonusercontent.com) |
-| `vk` | 36 | VK.com/ru/me, userapi, vkcache, vk-cdn |
-| `x5` | 33 | Перекрёсток, Пятёрочка, Чижик, 5post |
-| `wildberries` | 11 | wildberries.ru, wb.ru, wbstatic.net, bx-cdn.ru |
-| `mailru`, `avito`, `dzen`, `rutube`, `okko`, `wink`, `ok`, `2gis` | 2–3 | Медиа и сервисы |
-
-### Финансы и платежи
-
-| Категория | Доменов | Покрытие |
-|---|---|---|
-| `ru-banks` | 31 | Сбер, Т-Банк (Тинькофф), Альфа, ВТБ, Газпромбанк, Райффайзен и др. |
-| `ru-payments` | 36 | СБП, MirPay, ЮMoney, QIWI, национальная платёжная инфра |
-| `ru-analytics` | 45 | Метрика, VK-аналитика, AdFox, admetrica |
-| `ru-cdn` | 16 | VK Cloud, Selectel, Yandex Cloud (российские CDN) |
-| `ru-finance` | 2 | moex.com, honestmark.org |
-| `ru-marking` | 2 | Честный знак (crpt.ru, mdlp.crpt.ru) |
-| `swift` | 4 | SWIFT-инфра |
-
-### Ретейл и повседневность
-
-| Категория | Доменов | Что |
-|---|---|---|
-| `ru-retail-extra` | 2 | Ашан, Азбука Вкуса, Чижик, Магнит (расширение сверх Минцифры) |
-| `ru-tv` | 7 | ren.tv, russia.tv, vgtrk, more.tv, premier.one, vitrina.tv |
-| `ru-transport` | 5 | pobeda.aero, routeq, youdrive, icq |
-| `ru-medical` | 8 | Medtrum, Sinocare, POCTech, iCan, Yuwell (CGM/глюкометры) |
-
-### Западные экосистемы (для DEFAULT-профиля)
-
-| Категория | Доменов | Назначение |
-|---|---|---|
-| `apple` | 1583 | Apple основные |
-| `icloud` | 54 | iCloud сервисы |
-| `google` | 105 | Google core |
-| `youtube` | 177 | YouTube (в DEFAULT — через прокси) |
-| `google-play` | 8 | Play Store |
-| `telegram` | 21 | Telegram (в DEFAULT — через прокси) |
-| `twitch` | 11 | Twitch |
-| `google-deepmind`, `google-registry`, `firebase`, `flutter`, `dart`, `golang`, `v8` и др. | 8 подкат. | Google dev-стек |
-| `apple-dev`, `apple-pki`, `apple-update`, `beats` и др. | 7 подкат. | Apple вспомогательные |
-
-### Блэклист
-
-| Категория | Записей | Что |
-|---|---|---|
-| `category-ban-ru` | 7029 | Блокируемый в РФ контент (antifilter/refilter) |
-
----
-
-## Категории geoip (11 категорий, ~25 000 CIDR)
-
-| Категория | CIDR | Источник |
-|---|---|---|
-| `ru` | **24935** | Все российские IP-подсети (обновляется еженедельно из frayZV/simple-ru-geoip) |
-| `ru-yandex` | 16 | Яндекс ASN |
-| `ru-ozon` | 15 | Ozon ASN |
-| `ru-analytics` | 11 | Аналитика (Метрика и др.) |
-| `ru-banks` | 11 | Российские банки |
-| `ru-wildberries` | 9 | Wildberries ASN |
-| `ru-payments` | 7 | Платёжные системы |
-| `ru-vk` | 5 | VK ASN |
-| `ru-mts` | 3 | МТС |
-| `ru-cdn` | 2 | Российские CDN |
-| `private` | 18 | Локальные сети (RFC 1918) |
-
----
-
-## Прибитые IP (DnsHosts) в профилях
-
-Для обхода DNS-блокировок и залипаний в профили вшиты прямые IP критичных гос-сервисов:
-
-| Домен | IP |
+| Профиль | Содержимое |
 |---|---|
-| `lkfl2.nalog.ru` | `213.24.64.175` |
-| `lknpd.nalog.ru` | `213.24.64.181` |
-| `service.nalog.ru` | `213.24.64.140` |
-| `nalog.gov.ru` | `37.220.164.100` |
-| `gosuslugi.ru` | `213.59.253.7` |
-| `esia.gosuslugi.ru` | `213.59.253.8` |
-| `lk.gosuslugi.ru` | `213.59.253.6` |
-| `sberbank.ru` | `84.252.149.206` |
-| `online.sberbank.ru` | `84.252.149.51` |
-| `vtb.ru` | `195.242.82.13` |
-| `online.vtb.ru` | `185.179.146.43` |
-| `id.vtb.ru` | `185.179.144.34` |
+| `WHITELIST` | Курируемые RU-категории и заданные RU/private IP направляются напрямую; остальное обрабатывается общей политикой профиля |
+| `DEFAULT` | Дополнительно содержит Apple/iCloud и другие явные категории; YouTube, Google, Google Play, Telegram указаны в ProxySites |
+| `JSONSUB` | Минимальный локальный набор private; настройки DNS, включая DnsHosts, также присутствуют |
 
-IP проверены через Cloudflare DoH и Google DoH — консистентные ответы.
+Точные правила определяет JSON, а не эта краткая таблица. В DEFAULT сохранены исторические `category-ban-ru` в `DirectSites`, пересечения Direct/Proxy и `RouteOrder: block-proxy-direct`; исправления A–C от 30 сентября 2026 не меняют эту политику.
 
----
+`DnsHosts` во всех профилях содержит фиксированные IP. Они оставлены без изменений и не должны считаться свежими DNS-ответами или гарантированно рабочими адресами; их ревизия относится к отдельному блоку D.
 
-## Обновления
+## Категории и статистика
 
-- **geoip.dat**: еженедельно (по воскресеньям 03:00 MSK) — cron синхронизирует `data-geoip/ru.txt` с апстримом [frayZV/simple-ru-geoip](https://github.com/frayZV/simple-ru-geoip)
-- **geosite.dat**: пересобирается при добавлении новых Минцифры-подтверждённых доменов
-- **Профили Happ/Incy**: обновляются при изменениях категорий (обычно 1 раз в неделю)
+Полные счётчики автоматически формируются из текущих бинарных файлов и исходников: [CATEGORY_STATS.md](./CATEGORY_STATS.md). Это количество правил, а не уникальных сайтов во всём проекте; категории пересекаются, а правило `domain:` покрывает поддомены.
 
-Проверить последний релиз: [Releases](https://github.com/GrimbirdUsers/ru-routing-dat/releases)
+| Категория | Назначение |
+|---|---|
+| `category-ru-whitelist` | Мета-категория курируемых RU-сервисов и зависимостей |
+| `ru-whitelist-extended` | Дополнительные сервисы, госресурсы, ретейл и утверждённые зависимости |
+| `wildberries`, `ozon` | Маркетплейсы и включённые в исходники инфраструктурные домены |
+| `yandex`, `vk`, `mailru-group`, `ok` | Экосистемы и зависимые сервисы; отдельной категории `mailru` нет |
+| `ru-banks`, `ru-payments`, `ru-finance` | Банки, платежи и финансовые сервисы |
+| `ru-retail-extra` | Лемана ПРО: `lemanapro.ru`, `lmru.tech` |
+| `ru-tv` | Телевидение и СМИ, включая добавления A07/C01 |
+| `ru-transport` | Транспорт, доставка и включённые в исходник сервисы; ICQ исключён |
+| `ru-medical` | Домены CGM/медицинских сервисов; не полный реестр API приложений |
+| `ru-cdn`, `ru-analytics` | CDN и аналитические зависимости |
+| `swift` | Язык программирования Swift экосистемы Apple, не банковская сеть SWIFT |
+| `twitch` | Сервисные домены Twitch |
+| `twitch-ads` | Отдельно сохранённые старые 11 рекламных/служебных правил, не чистый список рекламы |
 
----
+`twitch-ads` не включён в `twitch` или RU-whitelist. Ни одна из этих двух категорий не добавлена в готовые профили этим обновлением.
 
-## Использование в конфигах
+## Сборка и проверки
 
-### Xray / v2ray (routing.rules)
+Базы собираются из собственных исходников. Сравнивать их побайтно с чужими `.dat` для определения наличия обновлений некорректно: набор категорий отличается.
 
-```json
-{
-  "type": "field",
-  "domain": ["geosite:category-ru-whitelist"],
-  "outboundTag": "direct"
-}
+```sh
+domain-list-community --datapath=./data-geosite --outputdir=. --outputname=geosite.dat
+geoip -c geoip-config.json
+python3 scripts/build_metadata.py
+python3 scripts/validate_abc.py
 ```
 
-```json
-{
-  "type": "field",
-  "ip": ["geoip:ru"],
-  "outboundTag": "direct"
-}
+Если меняются только домены, пересобирать `geoip.dat` не требуется. При изменении DEFAULT JSON синхронизируйте производные файлы:
+
+```sh
+python3 -m pip install qrcode Pillow zxing-cpp
+python3 scripts/build_default_links.py
+python3 scripts/validate_abc.py --qr
 ```
 
-### sing-box (route.rules)
+`build_metadata.py --check` проверяет актуальность документа со счётчиками без записи. `validate_abc.py` проверяет исходники и бинарник, существование категорий в профилях, точечные правила `full:`, согласованные наборы и равенство JSON/deeplink; `--qr` дополнительно декодирует DEFAULT QR.
 
-```json
-{
-  "geosite": "category-ru-whitelist",
-  "outbound": "direct"
-}
-```
+## История и источники
 
-### Mihomo (Clash Meta)
+Согласованные изменения перечислены в [журнале A–C от 2026-09-30](./changes/2026-09-30-abc.md). Источники доменных наборов и правила проверки отделены от операторских гарантий.
 
-```yaml
-rules:
-  - GEOSITE,category-ru-whitelist,DIRECT
-  - GEOIP,ru,DIRECT
-```
+- **RU GeoIP**: [frayZV/simple-ru-geoip](https://github.com/frayZV/simple-ru-geoip), синхронизация исходного `ru.txt`.
+- **Сервисные домены**: [v2fly/domain-list-community](https://github.com/v2fly/domain-list-community), сайты сервисов и их инфраструктурные сведения.
+- **Дополнительные кандидаты**: [hxehex/russia-mobile-internet-whitelist](https://github.com/hxehex/russia-mobile-internet-whitelist); запись в стороннем списке сама по себе не доказывает доступность у всех операторов.
 
----
-
-## Структура репозитория
-
-```
-├── geosite.dat             # Скомпилированный geosite (~260 KB)
-├── geoip.dat               # Скомпилированный geoip (~400 KB)
-├── data-geosite/           # Исходники: 63 файла с доменами
-├── data-geoip/             # Исходники: 11 файлов с CIDR
-├── HAPP/                   # Профили для Happ (iOS): JSON + DEEPLINK + QR
-├── INCY/                   # Профили для Incy (Android): JSON + DEEPLINK + QR
-├── geoip-config.json       # Конфиг сборки geoip
-├── HAPP_INCY_USAGE.md      # Детальная инструкция по профилям
-└── README.md               # Этот файл
-```
-
----
-
-## Философия проекта
-
-**Только Минцифры-подтверждённые домены.** Никаких «серых» расширений типа сторонних новостных сайтов, форумов, региональных gov-доменов без явного включения в белый список. Это гарантирует что VPN-детектор Wildberries, Ozon, банков не даст ложных срабатываний.
-
-**Гранулярные категории.** Вместо одного `whitelist` — 63 категории geosite и 11 geoip. Можно точечно управлять маршрутизацией: направить Ozon direct, а YouTube через прокси; Wildberries direct, а Google через прокси.
-
-**Полное покрытие ретейла и СМИ РФ.** Ашан, Азбука Вкуса, Чижик, Delimobil, Belkacar, Достависта, 1tv, dumatv — то что часто пропускают в универсальных списках.
-
----
-
-## Источники
-
-- Основа RU IP: [frayZV/simple-ru-geoip](https://github.com/frayZV/simple-ru-geoip) (заморожен frayZV/simple-ru-geosite — не используется)
-- Дополнительные проверки: [hydraponique/roscomvpn-geosite](https://github.com/hydraponique/roscomvpn-geosite), [hxehex/russia-mobile-internet-whitelist](https://github.com/hxehex/russia-mobile-internet-whitelist)
-- Официальный список: [Приказ Минцифры России](https://digital.gov.ru/) о белом списке ресурсов
-- Категория `category-ban-ru`: [antifilter.download](https://antifilter.download/)
-
----
-
-## Лицензия и авторство
-
-Собирается автоматически, свободно к использованию. Домены и IP взяты из открытых источников. Автор: [GrimbirdUsers](https://github.com/GrimbirdUsers).
-
-Обнаружили ошибку или хотите добавить домен? Откройте [Issue](https://github.com/GrimbirdUsers/ru-routing-dat/issues) с обоснованием и ссылкой на Минцифры-подтверждение.
+Автор проекта: [GrimbirdUsers](https://github.com/GrimbirdUsers). Для предложения изменений откройте [Issue](https://github.com/GrimbirdUsers/ru-routing-dat/issues) с доменом, сценарием сбоя и техническим обоснованием; ссылка на официальное подтверждение не обязательна.

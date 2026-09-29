@@ -1,6 +1,7 @@
-# Расширение whitelist согласно официальному списку Минцифры РФ (на 17.05.2026)
-# Источники: Habr 23.04.2026, Wikipedia, T-J, Gazeta.Ru, GoGov, Meduza
-# Только домены ПОДТВЕРЖДЁННЫХ участников белого списка + домены РКН/НСДИ как госинфраструктура
+# Курируемые домены сервисов и их зависимостей для маршрутизации.
+# С 2026-09-30 официальное подтверждение Минцифры не является условием включения.
+# Исторические комментарии ниже отражают основания на дату добавления.
+# Доступность зависит от оператора/сети; включение не гарантирует работу.
 
 # === Погода ===
 domain:gismeteo.ru
@@ -115,8 +116,8 @@ domain:fns.ru
 domain:duma.gov.ru
 domain:council.gov.ru
 domain:roskachestvo.gov.ru
-domain:explain.rf
-domain:obyasnyaem.rf
+# A05: Объясняем.рф, not the undelegated Latin TLD .rf.
+domain:xn--90aivcdt6dxbc.xn--p1ai
 
 # === РКН и Национальная Система Доменных Имён (госинфраструктура) ===
 domain:rkn.gov.ru
@@ -228,3 +229,35 @@ domain:apteka.ru        # Аптека.ру
 # Исключено:
 # - fon.bet / fonbet.ru — Минцифры опровергло ("Фонбет там не будет")
 # - leroymerlin.ru — не резолвится, lemanapro.ru уже есть
+
+# Approved audit B01/B02/B12/B18/C02-C06, 2026-09-30.
+# User-approved service/dependency candidates; not an operator allowlist guarantee.
+# See changes/2026-09-30-abc.md for scope and evidence.
+domain:lenta.tech
+full:lenta.digift.ru
+domain:ivi.tv
+domain:mymts.ru
+domain:mts-ws.net
+domain:megamarket.tech
+domain:lizaalert.org
+domain:sirius.online
+full:m.47news.ru
+domain:okmarket.ru
+domain:burgerkingrus.ru
+domain:rskrf.ru
+domain:rsv.ru
+domain:myrosmol.ru
+domain:tvoyhod.online
+domain:inspector.ru
+domain:goskey.ru
+domain:rustore.ru
+domain:kion.ru
+domain:mtsmusic.ru
+domain:av.ru
+domain:victoria-group.ru
+domain:ertelecom.ru
+domain:dom.ru
+domain:dnevnik.ru
+domain:express.ms
+domain:sferum.ru
+domain:gibdd.ru

@@ -1,5 +1,8 @@
 domain:pobeda.aero
 domain:routeq.com
 domain:youdrive.today
-domain:icq.com
 domain:aeroflot.ru
+
+# Approved audit C06, 2026-09-30.
+domain:s7.ru
+domain:topdelivery.ru

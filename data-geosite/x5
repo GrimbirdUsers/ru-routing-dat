@@ -31,3 +31,7 @@ domain:x5w.ru
 domain:pyaterochka.ru
 domain:chizhik.ru
 domain:vprok.ru
+
+# Approved audit B13, 2026-09-30. x5media.ru includes advertising.
+domain:abonementx5.ru
+domain:x5media.ru

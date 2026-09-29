@@ -1,3 +1,4 @@
 domain:2gis.com
 domain:2gis.ru
-domain:satellite.online
+# Approved audit B20; satellite.online removed (A04: parked domain).
+domain:2gis.tech

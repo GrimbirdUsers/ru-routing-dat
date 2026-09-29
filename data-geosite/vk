@@ -34,3 +34,17 @@ domain:vkuservideo.com
 domain:vkuservideo.net
 domain:vkuservideo.ru
 domain:vkvideo.ru
+
+# Approved audit B03-B05, 2026-09-30.
+# https://bugbounty.standoff365.com/en-US/programs/vkontakte_vk/
+# https://github.com/v2fly/domain-list-community/blob/master/data/vk
+domain:vkontakte.com
+domain:vkuserlive.com
+domain:cdn-vk.net
+domain:vkcdnservice.com
+domain:userapi.ru
+domain:vktech-static.ru
+domain:vkpay.ru
+domain:vkpay.com
+domain:vkpay.app
+domain:vkpay.io

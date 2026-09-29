@@ -1,3 +1,11 @@
 domain:playfamily.ru
 domain:okko.sport
 domain:okko.tv
+
+# Approved audit B06-B07, 2026-09-30.
+# https://github.com/v2fly/domain-list-community/blob/master/data/okko
+# https://bugbounty.standoff365.com/en-US/programs/okko/
+domain:okkoapi.tv
+domain:tvgateway.ru
+domain:yotaplay.ru
+domain:okko.ru
