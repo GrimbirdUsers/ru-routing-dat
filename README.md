@@ -44,7 +44,7 @@ CDN и клиент могут кэшировать файлы. После об�
 
 ## Категории geosite
 
-В текущей сборке **63 категории и 12760 записей по всем категориям**. Счётчики взяты из бинарника после include и оптимизации; это не число уникальных сайтов, поскольку категории пересекаются.
+В текущей сборке **63 категории и 12762 записей по всем категориям**. Счётчики взяты из бинарника после include и оптимизации; это не число уникальных сайтов, поскольку категории пересекаются.
 
 Название категории ведёт к полному исходному списку. В таблицах приведены примеры реально присутствующих правил: имя без префикса означает `domain:` (домен и поддомены), `full:` означает только точный хост; счётчики и SHA256 также доступны в [CATEGORY_STATS.md](./CATEGORY_STATS.md).
 
@@ -144,7 +144,7 @@ CDN и клиент могут кэшировать файлы. После об�
 
 | Категория / полный список | Правил в сборке | Домены и примеры правил | Покрытие |
 |---|---:|---|---|
-| [`youtube`](./data-geosite/youtube) | 177 | `youtube.com`, `youtu.be`, `googlevideo.com`, `ytimg.com`, `yt.be` | YouTube; указан в ProxySites DEFAULT |
+| [`youtube`](./data-geosite/youtube) | 179 | `youtube.com`, `youtu.be`, `googlevideo.com`, `ytimg.com`, `yt.be` | YouTube; указан в ProxySites DEFAULT |
 | [`telegram`](./data-geosite/telegram) | 21 | `telegram.org`, `t.me`, `telegram.me`, `telegra.ph`, `tx.me` | Telegram; указан в ProxySites DEFAULT |
 | [`twitch`](./data-geosite/twitch) | 34 | `twitch.tv`, `ttvnw.net`, `jtvnw.net`, `twitchcdn.net`, `live-video.net` | Сервисные домены Twitch; маршрут в готовые профили не добавлялся |
 | [`twitch-ads`](./data-geosite/twitch-ads) | 11 | `kouch.tv`, `full:ads.twitch.tv`, `full:auth.brandis.us`, `doubleclick.net`, `full:spade.twitch.tv` | Сохранённый прежний рекламный/служебный набор; не включён в Twitch или whitelist |
@@ -283,7 +283,7 @@ python3 scripts/validate_abc.py --qr
 
 ## История и источники
 
-Согласованные изменения перечислены в [журнале A–C от 2026-09-30](./changes/2026-09-30-abc.md). Источники доменных наборов и правила проверки отделены от операторских гарантий.
+Согласованные изменения перечислены в [журнале A–C от 2026-09-30](./changes/2026-09-30-abc.md) и [дополнении YouTube от 2026-10-05](./changes/2026-10-05-youtube.md). Источники доменных наборов и правила проверки отделены от операторских гарантий.
 
 - **RU GeoIP**: [frayZV/simple-ru-geoip](https://github.com/frayZV/simple-ru-geoip), синхронизация исходного `ru.txt`.
 - **Сервисные домены**: [v2fly/domain-list-community](https://github.com/v2fly/domain-list-community), сайты сервисов и их инфраструктурные сведения.

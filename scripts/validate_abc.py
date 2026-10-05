@@ -139,6 +139,11 @@ def validate(qr=False, baseline=None):
         assert ("full", exact) in whitelist
         assert not covered(("full", "unapproved." + exact), whitelist)
         assert not covered(("full", exact.split(".", 1)[1]), whitelist)
+    # Approved 2026-10-05: YouTube Google dependencies (changes/2026-10-05-youtube.md).
+    assert ("full", "jnn-pa.googleapis.com") in data["youtube"]
+    assert not covered(("full", "other.jnn-pa.googleapis.com"), data["youtube"])
+    assert not covered(("full", "www.googleapis.com"), data["youtube"])
+    assert covered(("full", "redirector.gvt1.com"), data["youtube"])
     assert len(data["twitch"]) == 34
     assert len(data["twitch-ads"]) == 11
     for root in ("twitch.tv", "ttvnw.net", "jtvnw.net", "twitchcdn.net", "live-video.net"):
@@ -168,6 +173,7 @@ def validate(qr=False, baseline=None):
     print(f"PASS: {sum(len(v.split()) for v in APPROVED.values())} approved domain rules covered")
     print(f"PASS: {len(whitelist)} compiled whitelist rules; exact-host boundaries retained")
     print("PASS: removals, Twitch split, 6 profile references/deeplinks, build statistics and README tables")
+    print("PASS: YouTube dependencies jnn-pa.googleapis.com (exact) and gvt1.com retained")
     if qr:
         print("PASS: both DEFAULT QR codes decode to their current deeplinks")
     if baseline:
