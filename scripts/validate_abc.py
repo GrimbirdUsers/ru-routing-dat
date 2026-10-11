@@ -43,6 +43,10 @@ APPROVED = {
     "C04": "goskey.ru",
     "C05": "rustore.ru kion.ru mtsmusic.ru av.ru victoria-group.ru ertelecom.ru dom.ru",
     "C06": "s7.ru topdelivery.ru mcclinics.ru libreview.ru dnevnik.ru express.ms sferum.ru gibdd.ru",
+    # Approved 2026-10-11 (changes/2026-10-11-priority1.md).
+    "P1-yandex": "yandex.taxi yandex.pro rutaxi.ru vezet.ru yadi.sk edadeal.ru",
+    "P1-payments": "yoomoney.ru koronapay.com moneta.ru",
+    "P1-finance": "nsd.ru spbexchange.ru spvb.ru nationalclearingcentre.ru nkcbank.ru",
 }
 
 

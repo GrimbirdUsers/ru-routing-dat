@@ -44,7 +44,7 @@ CDN и клиент могут кэшировать файлы. После об�
 
 ## Категории geosite
 
-В текущей сборке **63 категории и 12762 записей по всем категориям**. Счётчики взяты из бинарника после include и оптимизации; это не число уникальных сайтов, поскольку категории пересекаются.
+В текущей сборке **63 категории и 12793 записей по всем категориям**. Счётчики взяты из бинарника после include и оптимизации; это не число уникальных сайтов, поскольку категории пересекаются.
 
 Название категории ведёт к полному исходному списку. В таблицах приведены примеры реально присутствующих правил: имя без префикса означает `domain:` (домен и поддомены), `full:` означает только точный хост; счётчики и SHA256 также доступны в [CATEGORY_STATS.md](./CATEGORY_STATS.md).
 
@@ -52,11 +52,11 @@ CDN и клиент могут кэшировать файлы. После об�
 
 | Категория / полный список | Правил в сборке | Домены и примеры правил | Покрытие |
 |---|---:|---|---|
-| [`category-ru-whitelist`](./data-geosite/category-ru-whitelist) | 629 | `wildberries.ru`, `domlenta.ru`, `lenta.tech`, `ivi.tv`, `gosuslugi.ru` | Согласованный набор RU-сервисов и зависимостей через include |
+| [`category-ru-whitelist`](./data-geosite/category-ru-whitelist) | 643 | `wildberries.ru`, `domlenta.ru`, `lenta.tech`, `ivi.tv`, `gosuslugi.ru` | Согласованный набор RU-сервисов и зависимостей через include |
 | [`ru-whitelist-extended`](./data-geosite/ru-whitelist-extended) | 167 | `domlenta.ru`, `lenta.tech`, `full:lenta.digift.ru`, `ivi.tv`, `mymts.ru` | Дополнительные сервисы, включая Дом Лента, Иви, МТС, ретейл и госресурсы |
 | [`category-gov-ru`](./data-geosite/category-gov-ru) | 119 | `gov.ru`, `gosuslugi.ru`, `nalog.ru`, `cbr.ru`, `mos.ru` | Государственные, региональные и связанные социальные ресурсы |
 | [`category-ru`](./data-geosite/category-ru) | 111 | `ru`, `su`, `xn--p1ai`, `moscow`, `tatar` | Широкие RU-анкоры и доменные зоны; не точечный whitelist |
-| [`category-ru-all`](./data-geosite/category-ru-all) | 167 | `ru`, `su`, `xn--p1ai`, `yandex.com`, `psk` | Мета-категория с широкими RU-правилами и сервисными include; не синоним whitelist |
+| [`category-ru-all`](./data-geosite/category-ru-all) | 170 | `ru`, `su`, `xn--p1ai`, `yandex.com`, `psk` | Мета-категория с широкими RU-правилами и сервисными include; не синоним whitelist |
 
 ### Крупные RU-сервисы
 
@@ -64,7 +64,7 @@ CDN и клиент могут кэшировать файлы. После об�
 |---|---:|---|---|
 | [`wildberries`](./data-geosite/wildberries) | 16 | `wildberries.ru`, `wb.ru`, `wbcontent.net`, `wb-bank.ru`, `wibes.com` | Wildberries, WB Pay/банк, Wibes и включённые CDN |
 | [`ozon`](./data-geosite/ozon) | 31 | `ozon.ru`, `ozone.ru`, `ozonusercontent.com`, `ozonbank.ru`, `o3.ru` | Ozon и включённые сервисные/CDN-домены |
-| [`yandex`](./data-geosite/yandex) | 62 | `yandex.ru`, `ya.ru`, `yastatic.net`, `clstorage.net`, `full:report.ap.yandex-net.ru` | Яндекс и включённые инфраструктурные зоны, в том числе общие CDN |
+| [`yandex`](./data-geosite/yandex) | 68 | `yandex.ru`, `ya.ru`, `yastatic.net`, `clstorage.net`, `full:report.ap.yandex-net.ru` | Яндекс и включённые инфраструктурные зоны, в том числе общие CDN |
 | [`vk`](./data-geosite/vk) | 46 | `vk.com`, `vk.ru`, `vkuserlive.com`, `userapi.ru`, `vkpay.ru` | VK, пользовательский контент, видео и VK Pay |
 | [`mailru-group`](./data-geosite/mailru-group) | 70 | `mail.ru`, `bk.ru`, `list.ru`, `mcs.st`, `bizmrg.com` | Mail.ru, почтовые и облачные домены, VK через include; отдельной mailru нет |
 | [`ok`](./data-geosite/ok) | 9 | `ok.me`, `ok.ru`, `odkl.ru`, `apiok.ru`, `mycdn.me` | Одноклассники и включённые API/CDN |
@@ -81,8 +81,8 @@ CDN и клиент могут кэшировать файлы. После об�
 | Категория / полный список | Правил в сборке | Домены и примеры правил | Покрытие |
 |---|---:|---|---|
 | [`ru-banks`](./data-geosite/ru-banks) | 36 | `sberbank.ru`, `tbank.ru`, `alfabank.ru`, `vtb.ru`, `t-static.ru` | Банки и включённые банковские зависимости |
-| [`ru-payments`](./data-geosite/ru-payments) | 26 | `nspk.ru`, `vkpay.ru`, `payecom.ru`, `sber.ru`, `vkpay.io` | Платёжные и идентификационные ресурсы, включая VK Pay |
-| [`ru-finance`](./data-geosite/ru-finance) | 2 | `moex.com`, `honestmark.org` | Финансовые/учётные ресурсы исходного набора |
+| [`ru-payments`](./data-geosite/ru-payments) | 29 | `nspk.ru`, `yoomoney.ru`, `vkpay.ru`, `payecom.ru`, `sber.ru` | Платёжные и идентификационные ресурсы, включая VK Pay |
+| [`ru-finance`](./data-geosite/ru-finance) | 7 | `nsd.ru`, `spvb.ru`, `moex.com`, `nkcbank.ru`, `honestmark.org` | Финансовые/учётные ресурсы исходного набора |
 
 ### Ретейл, маркировка и повседневные сервисы
 
@@ -283,7 +283,7 @@ python3 scripts/validate_abc.py --qr
 
 ## История и источники
 
-Согласованные изменения перечислены в [журнале A–C от 2026-09-30](./changes/2026-09-30-abc.md) и [дополнении YouTube от 2026-10-05](./changes/2026-10-05-youtube.md). Источники доменных наборов и правила проверки отделены от операторских гарантий.
+Согласованные изменения перечислены в [журнале A–C от 2026-09-30](./changes/2026-09-30-abc.md), [дополнении YouTube от 2026-10-05](./changes/2026-10-05-youtube.md) и [приоритете 1 из v2fly от 2026-10-11](./changes/2026-10-11-priority1.md). Источники доменных наборов и правила проверки отделены от операторских гарантий.
 
 - **RU GeoIP**: [frayZV/simple-ru-geoip](https://github.com/frayZV/simple-ru-geoip), синхронизация исходного `ru.txt`.
 - **Сервисные домены**: [v2fly/domain-list-community](https://github.com/v2fly/domain-list-community), сайты сервисов и их инфраструктурные сведения.

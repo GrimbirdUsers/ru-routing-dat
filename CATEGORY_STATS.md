@@ -6,9 +6,9 @@
 
 ## geosite.dat
 
-Категорий: 63. Записей по всем категориям: 12762 доменных правил. Размер: 268011 байт.
+Категорий: 63. Записей по всем категориям: 12793 доменных правил. Размер: 268526 байт.
 
-SHA256: `087cd21f3b475bb051b82b67ab0269bf8037285254731f93711ea4be1ce78082`.
+SHA256: `4d7f96727c444a0b592779d7e5314ac2f0f1cb90f8d33cc7b5f056ef723392a1`.
 
 | Категория | Строк исходника без комментариев | Записей в бинарнике |
 |---|---:|---:|
@@ -26,8 +26,8 @@ SHA256: `087cd21f3b475bb051b82b67ab0269bf8037285254731f93711ea4be1ce78082`.
 | `category-ban-ru` | 7742 | 7029 |
 | `category-gov-ru` | 119 | 119 |
 | `category-ru` | 287 | 111 |
-| `category-ru-all` | 20 | 167 |
-| `category-ru-whitelist` | 25 | 629 |
+| `category-ru-all` | 20 | 170 |
+| `category-ru-whitelist` | 25 | 643 |
 | `dart` | 3 | 3 |
 | `dzen` | 2 | 2 |
 | `fastlane` | 2 | 2 |
@@ -55,10 +55,10 @@ SHA256: `087cd21f3b475bb051b82b67ab0269bf8037285254731f93711ea4be1ce78082`.
 | `ru-analytics` | 45 | 38 |
 | `ru-banks` | 36 | 36 |
 | `ru-cdn` | 17 | 15 |
-| `ru-finance` | 2 | 2 |
+| `ru-finance` | 7 | 7 |
 | `ru-marking` | 2 | 2 |
 | `ru-medical` | 9 | 9 |
-| `ru-payments` | 42 | 26 |
+| `ru-payments` | 45 | 29 |
 | `ru-retail-extra` | 2 | 2 |
 | `ru-transport` | 6 | 6 |
 | `ru-tv` | 22 | 22 |
@@ -73,7 +73,7 @@ SHA256: `087cd21f3b475bb051b82b67ab0269bf8037285254731f93711ea4be1ce78082`.
 | `wildberries` | 16 | 16 |
 | `wink` | 4 | 4 |
 | `x5` | 35 | 35 |
-| `yandex` | 64 | 62 |
+| `yandex` | 70 | 68 |
 | `youtube` | 179 | 179 |
 
 ## geoip.dat
