@@ -165,6 +165,8 @@ def validate(qr=False, baseline=None):
         payload = unquote(link.split("/onadd/", 1)[1])
         assert json.loads(base64.b64decode(payload)) == profile, path
         assert "geosite:twitch" not in path.read_text()
+        # Approved 2026-10-11: stale nalog.gov.ru pin removed (changes/2026-10-11-dnshosts.md).
+        assert "nalog.gov.ru" not in profile.get("DnsHosts", {}), path
         assert "geosite:twitch-ads" not in path.read_text()
         if qr and path.stem == "DEFAULT":
             import zxingcpp
